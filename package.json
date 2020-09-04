@@ -1,0 +1,14 @@
+{
+  "name": "CUSTOMER-CLI",
+  "version": "1.0.0",
+  "description": "Customer Management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.2"
+  }
+}
